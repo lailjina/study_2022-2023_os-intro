@@ -3,6 +3,10 @@
 ## https://github.com/alexkaratarakis/gitattributes/blob/master/Common.gitattributes
 *		text=auto
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
 =======
 
 >>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
@@ -32,15 +36,21 @@
 *.tex      	text	diff=tex
 *.txt      	text
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Declare files that will always have CRLF line endings on checkout.
 *.sln text eol=crlf
 =======
+=======
+>>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
 
 
 
 ## Declare files that will always have CRLF line endings on checkout.
 *.sln text eol=crlf
 
+<<<<<<< HEAD
+>>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
+=======
 >>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
 ## Graphics
 *.png binary
@@ -55,6 +65,10 @@
 *.svg text
 *.eps binary
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
 =======
 
 >>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
@@ -67,6 +81,10 @@
 *.cmd      	text 	eol=crlf
 *.ps1      	text 	eol=crlf
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
 =======
 
 >>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
@@ -77,6 +95,10 @@
 *.yaml     	text
 *.yml      	text
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
 =======
 
 >>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
@@ -89,6 +111,7 @@
 *.tgz      	binary
 *.zip      	binary
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Text files where line endings should be preserved
 *.patch      	-text
 ## Exclude files from exporting
@@ -98,6 +121,8 @@
 d filter=lfs diff=lfs merge=lfs -text
 labs/lab12/report/archive.tar.gz filter=lfs diff=lfs merge=lfs -text
 =======
+=======
+>>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
 
 ## Text files where line endings should be preserved
 *.patch      	-text
@@ -105,5 +130,9 @@ labs/lab12/report/archive.tar.gz filter=lfs diff=lfs merge=lfs -text
 
 ## Exclude files from exporting
 .gitattributes export-ignore
+<<<<<<< HEAD
+.gitignore     export-ignore
+>>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
+=======
 .gitignore     export-ignore
 >>>>>>> 0e3808ad83c71a3b724cc932a6caab5ce4fedc0a
